@@ -51,10 +51,10 @@ public class AdactinLoginPageTest extends SeleniumBasePon {
 
 			WebElement userName = logInPage.getUserName();
 			seleniumBasePon.sendKeysByjava(userName, getDatasFromWorkBook("task", 1, 0));
-		//	seleniumBasePon.sendKeysByjava(userName, "Ishu");
+			// seleniumBasePon.sendKeysByjava(userName, "Ishu");
 			WebElement password = logInPage.getPassword();
 			seleniumBasePon.sendKeysByjava(password, getDatasFromWorkBook("task", 1, 1));
-		//	seleniumBasePon.sendKeysByjava(password, "123456");
+			// seleniumBasePon.sendKeysByjava(password, "123456");
 			System.out.println("login Credentials Entered Successfully");
 
 			WebElement loginButton = logInPage.loginButton();
@@ -276,8 +276,8 @@ public class AdactinLoginPageTest extends SeleniumBasePon {
 
 		} catch (Exception e) {
 		}
-
+		System.out.println("git and gitbash is executed");
+		System.out.println("git and gitbash tester executed");
 	}
-		
 
 }
